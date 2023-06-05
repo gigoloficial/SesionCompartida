@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{37528811-D678-44FD-92BA-E7CD14EACB92}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Saul De Lira" ID="{37528811-D678-44FD-92BA-E7CD14EACB92}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="sonido" ID="{F7D60FC4-F025-4976-AB09-F1E1D8024D02}" ShortID="630397061">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34BF1745-ACB3-46F8-9B6B-57FE02AF290E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{67C3369F-6C9A-4753-B855-1686140B75AD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="d 7-Sylenth1" ID="{BBC6FB55-9865-42E2-B004-C4428607911B}">
+							<Language>SFX</Language>
+							<AudioFile>d 7-Sylenth1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="192920860"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="d 7-Sylenth1" ID="{BBC6FB55-9865-42E2-B004-C4428607911B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
